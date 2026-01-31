@@ -1,0 +1,31 @@
+# --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# --- Virtual Environments ---
+venv/
+env/
+.env
+.venv
+
+# --- IDE Settings (VS Code, Pycharm) ---
+.idea/
+.vscode/
+*.swp
+
+# --- Project Specific (Machine Learning) ---
+catboost_info/
+**/catboost_info/
+
+# Serialized Models
+*.pkl
+*.h5
+*.joblib
+*.model
+
+# --- System ---
+.DS_Store
+Thumbs.db
